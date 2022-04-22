@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Revendedora de Carros</title>
+<link rel="icon" href="imagens/icone.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Cadastrar Novo Carro</h1>
+	<form name="frmCarro" action="insert">
+		<table>
+			<tr>
+				<td><input type="text" name="marca" placeholder="Marca"
+					class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="modelo" placeholder="Modelo"
+					class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="number" name="anomod" placeholder="Ano modelo"
+					class="Caixa2"></td>
+			</tr>
+			<tr>
+				<td><input type="number" name="anofab"
+					placeholder="Ano fabricação" class="Caixa2"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="placa" placeholder="Placa"
+					class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="cor" placeholder="Cor"
+					class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="number" name="qtdporta"
+					placeholder="Quantidade Portas" class="Caixa2"></td>
+			</tr>
+			<tr>
+				<td><input type="date" name="datainsercao" class="Caixa2"></td>
+			</tr>
+			<tr>
+				<td><input type="number" name="valor" placeholder="Valor"
+					class="Caixa2"></td>
+			</tr>
+
+		</table>
+		<input type="button" value="Cadastrar" class="Botao1"
+			onclick="validar()">
+	</form>
+	<script src="scripts/validador.js"></script>
+
+</body>
+</html>
